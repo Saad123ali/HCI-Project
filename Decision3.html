@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+        .menu .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu .card {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            width: 200px;
+        }
+        .menu .form {
+            background: #ff0000;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .menu input {
+            margin: 10px;
+            padding: 5px;
+        }
+        .menu .submit-btn {
+            background: #ffcc00;
+            padding: 5px 10px;
+            border: none;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h2>Discover Menu</h2>
+        <div class="cards">
+            <div class="card">Steaks & BBQ<br>$120 person</div>
+            <div class="card">Cocktails<br>$120 person</div>
+        </div>
+        <div class="form">
+            <h3>RESERVE A TABLE</h3>
+            <input type="number" placeholder="No of Guest">
+            <input type="date" placeholder="Date">
+            <input type="time" placeholder="Time">
+            <input type="text" placeholder="Full Name">
+            <input type="tel" placeholder="Phone No">
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
